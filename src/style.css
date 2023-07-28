@@ -71,3 +71,8 @@ footer > a:hover {
     box-shadow: 0 0 20px white;
     background-color: grey;
 }
+
+.game-over {
+    background: radial-gradient(circle at 0.2% 1.8%, rgb(255, 90, 8) 0%, rgb(88, 0, 0) 100.2%);
+    opacity: 0.8;
+}

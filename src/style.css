@@ -76,3 +76,14 @@ footer > a:hover {
     background: radial-gradient(circle at 0.2% 1.8%, rgb(255, 90, 8) 0%, rgb(88, 0, 0) 100.2%);
     opacity: 0.8;
 }
+
+@media (max-width: 450px) {
+    .container {
+        padding: 20px;
+    }
+
+    .tile {
+        height: 120px;
+        width: 120px;
+    }
+}

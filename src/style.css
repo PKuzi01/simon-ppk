@@ -1,0 +1,73 @@
+body {
+    background: radial-gradient(circle at 10% 20%, rgb(255, 197, 61) 0%, rgb(255, 94, 7) 90%);
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Russo One', sans-serif;
+    color: #7c2e00;
+    text-shadow: 5px 5px 5px #FF6209;
+}
+
+footer {
+    font-family: 'Roboto Slab', serif;
+    color: #7c2e00;
+    text-shadow: 5px 5px 5px #FF6209;
+}
+
+footer > a {
+    color: #7c2e00;
+    text-shadow: 5px 5px 5px #FF6209;
+    text-decoration: none;
+    transition: ease-in-out 400ms;
+}
+
+footer > a:hover {
+    color: #FFB635;
+}
+
+.container {
+    border: #7c2e00 solid 8px;
+    box-shadow: 14px 12px 20px 5px rgba(129, 47, 0, 0.5);
+    border-radius: 20px;
+    background: #f07b1b;
+    max-width: 75%;
+    margin: 30px auto;
+    padding: 30px;
+}
+
+.gametiles {
+    margin: 30px auto;
+}
+
+.tile {
+    border: #7c2e00 solid 4px;
+    border-radius: 15px;
+    height: 200px;
+    width: 200px;
+}
+
+.yellow {
+    background-color: #E2A521;
+}
+
+.red {
+    background-color: #b81010;
+}
+
+.blue {
+    background-color: #4a90e2;
+}
+
+.green {
+    background-color: #417505;
+}
+
+.footer {
+    margin-bottom: 20px;
+}
+
+.pressed {
+    box-shadow: 0 0 20px white;
+    background-color: grey;
+}
